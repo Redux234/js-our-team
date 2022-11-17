@@ -2,9 +2,9 @@
 
 let membri = [
     {
-        nome: "Angela Carol",
+        nome: "Angela Caroll",
         ruolo: "Chief Editor",
-        immagine: "img/angela-carol-chief-editor.jpg"
+        immagine: "img/angela-caroll-chief-editor.jpg"
     },
     {
         nome: "Angela Lopez",
@@ -35,7 +35,7 @@ let membri = [
 
 console.log(membri)
 
-let i=0
+let i = 0
 
 //MILESTONE 1
 /*
@@ -54,7 +54,9 @@ while(i<membri.length){
     
 })
 */
-membri.forEach((Element) =>{
-    document.getElementById("ul").innerHTML +="<li>"+"Il nostro membro del team" + Element.nome + " è " + Element.ruolo + " e la sua immagine è " +  Element.immagine + "</li>";
+membri.forEach((Element) => {
+    document.getElementById("ul").innerHTML += "<li>" + "Il nostro membro del team " + Element.nome + " è " + Element.ruolo + " e la sua immagine è " + "<img src=" + Element.immagine + " alt=foto"+"></img>" + "</li>";
 })
+
+
 
