@@ -1,3 +1,5 @@
+//MILESTONE 0
+
 let membri = [
     {
         nome: "Angela Carol",
@@ -30,3 +32,16 @@ let membri = [
         immagine: "img/wayne-barnett-founder-ceo.jpg"
     }
 ]
+
+console.log(membri)
+
+//MILESTONE 1
+
+membri.forEach((Element) =>{
+    console.log(
+        `
+-----------------------Membro------------------------
+        Il nostro membro del team ${Element.nome} è ${Element.ruolo} e la sua immagine è ${Element.immagine}
+        `
+        )
+})
