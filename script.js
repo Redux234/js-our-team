@@ -35,16 +35,11 @@ let membri = [
 
 console.log(membri)
 
-let i = 0
 
 //MILESTONE 1
-/*
+
 membri.forEach((Element) =>{
-    let i=0
-while(i<membri.length){
-    document.getElementById("ul").innerHTML +="<li>"+"Il nostro membro del team" + Element.nome + " è " + Element.ruolo + " e la sua immagine è " +  Element.immagine + "</li>";
-    i++;
-}
+    
     console.log(
         `
 -----------------------Membro------------------------
@@ -53,7 +48,8 @@ while(i<membri.length){
         )
     
 })
-*/
+
+//MILESTONE 2 + BONUS 1
 membri.forEach((Element) => {
     document.getElementById("ul").innerHTML += "<li>" + "Il nostro membro del team " + Element.nome + " è " + Element.ruolo + " e la sua immagine è " + "<img src=" + Element.immagine + " alt=foto"+"></img>" + "</li>";
 })
